@@ -1,0 +1,19 @@
+
+
+EXERCICE6*
+Algorithme    nombre 
+Var  A,B: entier;
+debut
+Afficher(" entrer le premier nombre ");
+Saisir (A);
+Afficher (" entrer le deuxieme nombre");
+Saisir (B);
+Si ( AB>0)
+Afficher("le produit est positif");
+SiNon Afficher ("le produit est negatif");
+SiNon Si (AB=0)
+Afficher ("entrer un autre  nombre")
+Fin Sinon
+Fin Si
+FIN
+FIN

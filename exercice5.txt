@@ -1,0 +1,16 @@
+EXERCICE5
+Algorithme    signedunombre
+Var  A: entier;
+
+debut
+    Afficher("entrer votre nombre");
+    Saisir(A);
+Si (A>0)
+        Afficher("le nombre entrer est positif");
+    Si Non  Afficher ("le nombre est negative");
+
+    sinon si(A=0)
+        Afficher ("veuiller entrer un nombre valide");
+    Fin Sinon
+    Fin Si
+FIN

@@ -1,0 +1,14 @@
+EXERCICE*
+
+Algorithme    signedunombre
+    Var X: entier;
+debut
+    Afficher("entrer le nombre");
+    Saisir(X);
+Si (X>0) alors
+    Afficher("le nombre entrer est positif");
+SiNon  
+    Afficher ("le nombre est negative");
+FinSi
+
+FIN

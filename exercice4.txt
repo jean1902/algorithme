@@ -1,0 +1,24 @@
+Algorithme  Age ;
+
+var A :entier;
+
+**debut**
+
+    Afficher ("entrer votre age svp");
+    Saisir(A);
+
+    if(A>6 et A<7) alors
+        Afficher ("poussin");
+    FINsi
+    sinon 
+    if(A>=8 et A<=9) alors
+        Afficher ("pupil");
+    FinSi
+    if(A>10 et A<11) alors
+        Afficher ("minime");
+    FinSi
+    if(A>=12) alors
+        Afficher ("cadet");
+    FinSi
+    FinSi
+    FIN

@@ -1,0 +1,21 @@
+EXERCICE3
+
+
+Algorithme  Alphabet;
+
+Var A,B,C: chaines ;
+
+debut
+
+Afficher ("entrer  votre nom") ;
+Saisir (A);
+Afficher ("entrer votre nom") ;
+Saisir (B);
+Afficher ("entrer votre nom") ;
+Saisir (C);
+Si ( A<B et B<C)
+Afficher ("les nombres sont dans lordre alphabetique ");
+SiNon
+Afficher (" les nombre ne sont pas dans l ordre alphabetique")
+FinSi
+Fi
