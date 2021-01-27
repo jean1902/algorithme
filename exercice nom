@@ -1,9 +1,0 @@
-Agorithme nom
-
-  Var A,B,C,D,E
-  
-  DEBUT
-
- Afficher ("entrer votre nom svp");
- saisir(A,D,C,E,F);
- 

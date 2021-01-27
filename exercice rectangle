@@ -1,0 +1,24 @@
+Agorithme nom
+
+  Var A,B,C:entier ;
+  
+  DEBUT
+
+ Afficher ("entrer votre nom svp");
+ saisir(A,D,C);
+ A=A^2;
+ B=B^2;
+ C=C^2;
+ si ( A^2=B^2+c^2 ou B^2=A^2+C^2 ou C^2=A^2+B^2)alors
+Afficher ("le triangle est rectangle");
+sinon 
+afficher ("le triangle nest pas rectangle");
+Finsi
+Fin
+
+ 
+  
+ 
+ 
+ 
+ 
