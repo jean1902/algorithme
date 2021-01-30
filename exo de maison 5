@@ -1,0 +1,19 @@
+Algorithme   impot
+var  age:entier ;
+var  sexe: carractere ;
+Debut
+
+Ecrire("éntrer votre  age");
+Lire(age);
+Ecrire("éntrer votre sexe F ou M");
+Lire(sexe);
+
+A=sexe="M" et age>20 ;
+B= sexe="F" et (age>18 et age< 35);
+si ( A ou B) alors
+Ecrire(" impot imposable");
+Sinon
+Ecrire(" impot non imposable");
+Finsi
+Fin
+
