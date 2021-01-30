@@ -1,0 +1,12 @@
+Algorithme  nombre
+Var N:entier ;
+Debut
+N = 0
+Ecrire( "Entrez un nombre entre 1 et 3");
+TantQue N < 1 ou N > 3
+  Lire N
+    Si N < 1 ou N > 3 Alors
+      Ecrire " erreur entrer une autre valeur”
+    FinSi
+  FinTantQue
+Fin
