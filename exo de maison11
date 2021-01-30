@@ -1,0 +1,13 @@
+Algorithme  nombre;
+var  N: entier ;
+debut
+
+Ecrire("entrer votre nombre");
+Lire (N);
+Ecrire("les 10 nombres suivant sont");
+B=N+10 ;
+TantQue (N<B) alors
+N++;
+Ecrire N
+FinTanQue
+Fin
