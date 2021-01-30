@@ -1,0 +1,13 @@
+Algorithme  nombre
+var nbre fact ,i:entier
+Debut
+Ecrire("entrer votre nombre");
+Lire(nbre);
+i=nbre;
+TantQue (i<=Nbre)
+
+fact= Nbre*(i-1);
+i--;
+Ecrire (fact);
+FinTanQue
+Fin
