@@ -1,5 +1,18 @@
-Si Tutu <= Toto + 4 ET Tata <> "OK" alors
+algorithme  nom
+var  Tutu ,Toto, Tata :entier ;
+ 
+ debut
+ 
+ecrire("entrer Tutu");
+lire(Tutu);
+ecrire("entrer Toto");
+lire(Toto);
+ecrire("entrer Tata");
+lire(Tata);
+
+Si (Tutu <= Toto + 4 ET Tata <> "OK") alors
   Tutu ← Tutu - 1
 Sinon
   Tutu ← Tutu + 1
 Finsi
+Fin
