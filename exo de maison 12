@@ -1,0 +1,11 @@
+
+Algorithme multi
+var i,N ;entier ;
+Debut
+Ecrire(" entrer un nombre");
+Lire(N);
+Ecrire(" la table de multiplication est ");
+Pour i allant de 1 a 10
+Ecrire(N,"X",i,"=",n*i);
+i++;
+Fin
