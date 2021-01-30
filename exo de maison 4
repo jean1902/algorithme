@@ -1,0 +1,18 @@
+
+algorithme  facture ;
+
+Variables n, fact :entier
+Début
+Ecrire ("Nombre de photocopies : ");
+Lire(n);
+Si (n <= 10)
+ Alors
+  fact = n * 0,1 ;
+SinonSi (n <= 30)
+Alors
+  fact = 10 * 0,1 + (n – 10) * 0,09 ;
+Sinon
+  fact = 10 * 0,1 + 20 * 0,09 + (n – 30) * 0,08 ;
+FinSi
+Ecrire ("Le prix total est: ", fact);
+Fin
