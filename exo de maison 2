@@ -1,6 +1,6 @@
 algorithme temp;
 
-Var h, m en
+Var h, m: entier ;
 Début
 Ecrire "Entrez les heures, puis les minutes : ";
 Lire ( h, m);
