@@ -1,0 +1,10 @@
+Algorithme somme 
+Variables i, Som,N: entier
+Tableau T();
+Debut
+Som =0
+Pour i allant de 0 à N-1
+  Som = Som + T(i);
+i++;
+Ecrire("Somme des éléments du tableau : ",Som);
+Fin
