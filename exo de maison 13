@@ -1,0 +1,13 @@
+Algorithme   nombre
+Var  N,i,som :entier;
+Debut
+ Ecrire (" entrer le nombre");
+Lire(N);
+i=1;
+TanQue(i <= N)
+Pour i allant de 1 a N
+ som= i+i++;
+ Ecrire(som);
+FinTantQue
+Fin
+ 
