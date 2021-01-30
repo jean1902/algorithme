@@ -1,0 +1,16 @@
+algorithme temp;
+
+Var h, m en
+Début
+Ecrire "Entrez les heures, puis les minutes : ";
+Lire ( h, m);
+m ← m + 1
+Si m = 60 Alors
+  m ← 0
+  h ← h + 1
+FinSi
+Si h = 24 Alors
+  h ← 0
+FinSi
+Ecrire ( "Dans une minute il sera ", h, "heure(s) ", m, "minute(s)");
+Fin
